@@ -25,6 +25,10 @@ This repository contains files of a trained large language model (LLM) as part o
 
 ---
 
+## AUC-ROC Curve
+![AUC-ROC Curve](./docs/images/auc_curve.png)  
+- AUC: 0.98
+
 ## Installation
 ```bash
 # Clone repository
@@ -37,6 +41,4 @@ pip install -r requirements.txt
 # Verify installation
 python -c "import torch; print(f'PyTorch {torch.__version__}, CUDA {torch.version.cuda}')"
 
-## AUC-ROC Curve
-![AUC-ROC Curve](./docs/images/auc_curve.png)  
-- AUC: 0.98
+
