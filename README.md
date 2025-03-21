@@ -27,7 +27,7 @@ This repository contains files of a trained large language model (LLM) as part o
 
 ## AUC-ROC Curve
 ![AUC-ROC Curve](./auc_curve.png)  
-- AUC: 0.98
+- Test set AUC: 0.98
 
 ## Installation
 ```bash
