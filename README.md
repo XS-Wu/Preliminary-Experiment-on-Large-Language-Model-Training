@@ -36,3 +36,7 @@ pip install -r requirements.txt
 
 # Verify installation
 python -c "import torch; print(f'PyTorch {torch.__version__}, CUDA {torch.version.cuda}')"
+
+## AUC-ROC Curve
+![AUC-ROC Curve](./docs/images/auc_curve.png)  
+- AUC: 0.98
